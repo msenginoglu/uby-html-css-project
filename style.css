@@ -1,0 +1,110 @@
+body {
+  font-family: sans-serif;
+  color: #444;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: red;
+}
+
+h1 {
+  font-size: 28px;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 42px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+h4 {
+  font-size: 22px;
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+li {
+  font-size: 20px;
+}
+
+/* li:first-child {
+  color: pink;
+} */
+
+/* li:last-child {
+  color: red;
+} */
+
+/* li:nth-child(2) {
+  color: orange;
+} */
+
+/* li:nth-child(odd) {
+  color: orange;
+} */
+
+li:nth-child(even) {
+  color: orange;
+}
+
+/* lvha */
+a:link {
+  color: red;
+  text-decoration: none;
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover {
+  color: orange;
+  font-weight: 700;
+}
+
+a:active {
+  color: #444;
+}
+
+#copyright {
+  font-size: 12px;
+}
+
+/* Footer alanındaki link */
+#footerLink {
+  color: red;
+}
+
+.ingredients {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.relatedPosts {
+  list-style: none;
+}
+
+header {
+  background: #f2f2f2;
+}
+
+.relatedPostsContainer {
+  border-top: 5px double #ffb84d;
+  border-bottom: 5px double #ffb84d;
+  background: #f2f2f2;
+}
+
+/* article p:nth-child(2) {
+  font-weight: bold;
+} */
