@@ -24,7 +24,7 @@ header {
   /* padding-bottom: 20px; */
   padding: 20px 10px;
   margin-bottom: 20px;
-  height: 75px;
+  /* height: 75px; */
 }
 
 .pizzaImg {
@@ -45,6 +45,10 @@ h3 {
 h1 {
   font-size: 28px;
   font-style: italic;
+}
+
+h1::first-letter {
+  font-style: normal;
 }
 
 h2 {
@@ -110,6 +114,20 @@ a:active {
   color: #444;
 }
 
+nav {
+  text-align: center;
+}
+
+nav a:link {
+  margin-right: 30px;
+  margin-bottom: 25px;
+  display: inline-block;
+}
+
+nav a:link:last-child {
+  margin-right: 0;
+}
+
 #copyright {
   font-size: 12px;
 }
@@ -129,8 +147,8 @@ a:active {
 }
 
 .relatedPostsContainer {
-  border-top: 5px double #ffb84d;
-  border-bottom: 5px double #ffb84d;
+  border-top: 5px solid #ffb84d;
+  border-bottom: 5px solid #ffb84d;
   background: #f2f2f2;
   padding: 50px 0;
   margin-top: 50px;
@@ -150,7 +168,37 @@ ol {
   margin-left: 50px;
 }
 
+article p:nth-child(2) {
+  position: relative;
+}
+
+article p:nth-child(2)::after {
+  content: "🧿";
+  position: absolute;
+  right: 0;
+}
+
 .mainContainer {
   width: 800px;
   margin: 0 auto;
+}
+
+.likeButtonContainer {
+  position: relative;
+  height: 50px;
+}
+
+.likeButtonContainer button {
+  position: absolute;
+  right: 0;
+  color: white;
+  background: #ffb84d;
+  border: none;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.likeButtonContainer button:hover {
+  cursor: pointer;
+  background: orange;
 }
