@@ -1,1 +1,1 @@
-Son kaldığımız yer: 03.10.2024 Perşembe
+Son kaldığımız yer: 08.10.2024 Salı
